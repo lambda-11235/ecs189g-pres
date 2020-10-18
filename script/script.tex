@@ -1,0 +1,94 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{asymptote}
+\usepackage{calc}
+%\usepackage{caption}
+%\usepackage{chemfig}
+\usepackage{color}
+\usepackage{commath}
+%\usepackage{enumitem}
+%\usepackage[c]{esvect}
+%\usepackage{etoolbox}
+\usepackage{fancyhdr}
+%\usepackage{float}
+%\usepackage{fontspec}    %fontspec only works with xetex and luatex.
+%\usepackage{fp}
+\usepackage{geometry}
+%\usepackage{graphicx}
+\usepackage{lastpage}
+%\usepackage{listings}
+%\usepackage{luacode}
+\usepackage{mathtools}
+%\usepackage{mhchem}
+%\usepackage{pgfplots}
+%\usepackage{setspace}
+\usepackage{siunitx}
+%\usepackage{tcolorbox}
+%\usepackage{tikz}
+\usepackage{todonotes}
+
+\geometry{hmargin=2cm,vmargin=4cm}
+
+% For multipage align*
+\allowdisplaybreaks
+
+\title{Script}
+\author{Taran Lynn}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{enumerate}
+\item Start off by asking what the purpose of data visualization is.
+  \begin{enumerate}
+  \item The purpose is to see how data is structured.
+
+  \item This is done through manifold learning.
+    \todo{what is a manifold, how do we learn?}
+    [ Show example of 2D manifold in 3D space being put on a 2D space ]
+  \end{enumerate}
+  
+\item Broad overview of how Stochastic Network Embedding works.
+  \begin{enumerate}
+  \item SNE tries to preserve the higher dimensional distances
+    between point on a 2D or 3D plain.
+    
+  \item If we imagine that each data pair of points in higher
+    dimensional space is connected by a spring of length $p_{j|i}$.
+    SNE can be thought of as trying to squash points down into lower
+    dimensional space.
+    The spring lengths will $q_{j|i}$ probably be different, but their
+    force, caused by gradient descent, will make them to approach
+    $p_{j|i}$.
+    Not a completely accurate analogy because $p_{j|i} \neq p_{i|j}$,
+    so spring length is different when viewed from $x_i$ and $x_j$
+    (important later).
+    [ Show spring graphic ]
+
+  \item First, each data point is assigned a similarity $p_{j|i}$ to
+    every other point based on where it is in a higher-dimensional
+    Gaussian probability density centered on $x_i$.
+    Ignore how $\sigma_i$ is chosen for now.
+    [ Use 2D Gaussian as an example ]
+
+  \item Then we come with create a set of lower dimensional points
+    equal in number to the higher dimensional ones.
+    These point get similarity values $q_{j|i}$.
+    We then perform gradient descent to minimize the difference
+    between every $p_{j|i}$ and $q_{j|i}$ for every $i$ and $j$, as
+    measured by the Kullbeck-Leibler divergence.
+    [ Note that since $P_i$ and $Q_i$ are probability distributions, KL is $\ge 0$ ]
+
+  \item $\sigma_i$ is chosen via binary search on perplexity.
+    Can be interpreted as a smooth measure the number of neighbors.
+    [ $H(P_i)$ is the entropy in the neighborhood sample, i.e. the
+    number of bits needed to represent the uncertainty, so $2^{H(P_i)}$ is
+    like the number of neighbors. ]
+  \end{enumerate}
+
+\item \todo[inline]{Problems with SNE}
+\end{enumerate}
+
+\end{document}

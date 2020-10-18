@@ -1,0 +1,80 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+%\usepackage{asymptote}
+\usepackage{calc}
+%\usepackage{caption}
+%\usepackage{chemfig}
+\usepackage{color}
+\usepackage{commath}
+%\usepackage{enumitem}
+%\usepackage[c]{esvect}
+%\usepackage{etoolbox}
+\usepackage{fancyhdr}
+%\usepackage{float}
+%\usepackage{fontspec}    %fontspec only works with xetex and luatex.
+%\usepackage{fp}
+\usepackage{geometry}
+%\usepackage{graphicx}
+\usepackage{lastpage}
+%\usepackage{listings}
+%\usepackage{luacode}
+\usepackage{mathtools}
+%\usepackage{mhchem}
+%\usepackage{pgfplots}
+%\usepackage{setspace}
+\usepackage{siunitx}
+%\usepackage{tcolorbox}
+%\usepackage{tikz}
+
+\geometry{hmargin=2cm,vmargin=4cm}
+%\setmainfont{DejaVu Sans}    %This is part of the fontspec package.
+%\doublespacing
+
+% This very important is you don't want code colored in grey scale
+%\lstset{
+%    basicstyle=\ttfamily, % This is equivalent to monospace
+%    numbers=left,
+%    numberstyle=\color{magenta},
+%    keywordstyle=\color{blue},
+%    stringstyle=\color{red},
+%    commentstyle=\color{green}\textit
+%}
+
+% For multipage align*
+\allowdisplaybreaks
+
+\title{Notes}
+\author{}
+\date{}
+
+\begin{document}
+\maketitle
+
+\begin{itemize}
+\item Symmetric SNE uses the sum of all distance pairs, should be
+  constant for every $p_{ji}$.
+  Since $|| x_i - x_j ||^2 = || x_j - x_i ||^2$ we get $p_{ij} = p_{ji}$.
+
+\item $p_{j|i}$ is the similarity of $x_j$ to $x_i$.
+  In Euclidean space this is the probability $x_i$ will pick $x_j$ as
+  its neighbor.
+  Neighbor probability is given using a Gaussian distribution from
+  $x_i$.
+
+\item Lower dimension similarities are normalised so that $\sigma_i = 1/\sqrt{2}$.
+
+\item KL divergence, aka relative entropy, is a measure of
+  dissimilarity between two distributions.
+
+\item Perplexity kind of controls the number of neighbors of a point,
+  controls springy-ness.
+\end{itemize}
+
+\begin{enumerate}
+\item Xiaoli tSNE
+\item Taran SNE
+\item Xiaoxing programming and evaluation
+\end{enumerate}
+
+\end{document}
