@@ -348,6 +348,13 @@ INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/sha
 INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/tfm/public/cm/cmss12.tfm
 INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/tfm/public/cm/cmss8.tfm
 INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf-var/fonts/map/pdftex/updmap/pdftex.map
+INPUT images/manifold/manifold.png
+INPUT ./images/manifold/manifold.png
+INPUT ./images/manifold/manifold.png
+INPUT images/manifold/manifold.png
+INPUT ./images/manifold/manifold.png
+INPUT images/manifold/manifold.png
+INPUT ./images/manifold/manifold.png
 INPUT images/spring.png
 INPUT ./images/spring.png
 INPUT ./images/spring.png
@@ -393,6 +400,9 @@ INPUT pres.aux
 INPUT ./pres.out
 INPUT ./pres.out
 INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb
+INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cmextra/cmex8.pfb
+INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb
+INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmmi9.pfb
 INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmss10.pfb
 INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmss12.pfb
@@ -404,4 +414,5 @@ INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/sha
 INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb
 INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmsy6.pfb
 INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb
+INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb
 INPUT /nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/symbols/msam10.pfb

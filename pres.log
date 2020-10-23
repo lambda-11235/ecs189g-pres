@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/NixOS.org) (preloaded format=pdflatex 2020.10.4)  18 OCT 2020 15:03
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/NixOS.org) (preloaded format=pdflatex 2020.10.4)  22 OCT 2020 23:24
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1129,35 +1129,56 @@ thkerncmss.
 ) [1
 
 {/nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/t
-exmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2
+exmf-var/fonts/map/pdftex/updmap/pdftex.map}]
+<images/manifold/manifold.png, id=43, 910.602pt x 517.935pt>
+File: images/manifold/manifold.png Graphic file (type png)
+<use images/manifold/manifold.png>
+Package pdftex.def Info: images/manifold/manifold.png  used on input line 56.
+(pdftex.def)             Requested size: 236.5981pt x 134.5733pt.
+ [2
 
-]
-<images/spring.png, id=68, 477.37982pt x 187.6368pt>
-File: images/spring.png Graphic file (type png)
-<use images/spring.png>
-Package pdftex.def Info: images/spring.png  used on input line 48.
-(pdftex.def)             Requested size: 307.28987pt x 120.78285pt.
+ <./images/manifold/manifold.png>]
+File: images/manifold/manifold.png Graphic file (type png)
+<use images/manifold/manifold.png>
+Package pdftex.def Info: images/manifold/manifold.png  used on input line 56.
+(pdftex.def)             Requested size: 236.5981pt x 134.5733pt.
  [3
 
- <./images/spring.png>]
-<images/gauss/gauss.png, id=97, 519.8622pt x 525.6438pt>
-File: images/gauss/gauss.png Graphic file (type png)
-<use images/gauss/gauss.png>
-Package pdftex.def Info: images/gauss/gauss.png  used on input line 58.
-(pdftex.def)             Requested size: 184.3758pt x 186.4244pt.
+]
+File: images/manifold/manifold.png Graphic file (type png)
+<use images/manifold/manifold.png>
+Package pdftex.def Info: images/manifold/manifold.png  used on input line 56.
+(pdftex.def)             Requested size: 236.5981pt x 134.5733pt.
  [4
 
- <./images/gauss/gauss.png>] [5
-
 ]
-<images/perp/perp.png, id=153, 1046.9514pt x 1016.598pt>
-File: images/perp/perp.png Graphic file (type png)
-<use images/perp/perp.png>
-Package pdftex.def Info: images/perp/perp.png  used on input line 85.
-(pdftex.def)             Requested size: 166.30153pt x 161.48961pt.
+<images/spring.png, id=121, 477.37982pt x 187.6368pt>
+File: images/spring.png Graphic file (type png)
+<use images/spring.png>
+Package pdftex.def Info: images/spring.png  used on input line 74.
+(pdftex.def)             Requested size: 307.28987pt x 120.78285pt.
+ [5
+
+ <./images/spring.png>]
+<images/gauss/gauss.png, id=150, 519.8622pt x 525.6438pt>
+File: images/gauss/gauss.png Graphic file (type png)
+<use images/gauss/gauss.png>
+Package pdftex.def Info: images/gauss/gauss.png  used on input line 89.
+(pdftex.def)             Requested size: 153.64493pt x 155.35231pt.
  [6
 
- <./images/perp/perp.png>] [7
+ <./images/gauss/gauss.png>]
+<images/perp/perp.png, id=186, 1046.9514pt x 1016.598pt>
+File: images/perp/perp.png Graphic file (type png)
+<use images/perp/perp.png>
+Package pdftex.def Info: images/perp/perp.png  used on input line 111.
+(pdftex.def)             Requested size: 166.30153pt x 161.48961pt.
+ [7
+
+ <./images/perp/perp.png>] [8
+
+]
+[9
 
 ]
 \tf@nav=\write6
@@ -1171,47 +1192,54 @@ Package pdftex.def Info: images/perp/perp.png  used on input line 85.
 
  
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 97.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 97.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
 (./pres.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 97.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 97.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
 Package rerunfilecheck Info: File `pres.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21283 strings out of 480994
- 449431 string characters out of 5888645
- 669190 words of memory out of 5000000
- 36280 multiletter control sequences out of 15000+600000
+ 21304 strings out of 480994
+ 449922 string characters out of 5888645
+ 671190 words of memory out of 5000000
+ 36295 multiletter control sequences out of 15000+600000
  546605 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 58i,14n,67p,791b,708s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 58i,14n,67p,791b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
 </nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share
 /texmf/fonts/type1/public/amsfonts/cm/cmex10.pfb></nix/store/xpyyls9lgphkaddin0
 knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfon
-ts/cm/cmmi9.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-f
-ull-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmss10.pfb></nix/store/xpyy
+ts/cmextra/cmex8.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combi
+ned-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmmi10.pfb></nix/store
+/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/
+type1/public/amsfonts/cm/cmmi8.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4
+-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmmi9.pf
+b></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share
+/texmf/fonts/type1/public/amsfonts/cm/cmss10.pfb></nix/store/xpyyls9lgphkaddin0
+knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfon
+ts/cm/cmss12.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-
+full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmss8.pfb></nix/store/xpyy
 ls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1
-/public/amsfonts/cm/cmss12.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-tex
-live-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmss8.pfb></
-nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/tex
-mf/fonts/type1/public/amsfonts/cm/cmss9.pfb></nix/store/xpyyls9lgphkaddin0knmlr
-jqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm
-/cmssi10.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full
--2019/share/texmf/fonts/type1/public/amsfonts/cm/cmssi8.pfb></nix/store/xpyyls9
-lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/pu
-blic/amsfonts/cm/cmssi9.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texliv
-e-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></ni
-x/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf
-/fonts/type1/public/amsfonts/cm/cmsy6.pfb></nix/store/xpyyls9lgphkaddin0knmlrjq
-pb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/c
-msy7.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-201
-9/share/texmf/fonts/type1/public/amsfonts/symbols/msam10.pfb>
-Output written on pres.pdf (7 pages, 368200 bytes).
+/public/amsfonts/cm/cmss9.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texl
+ive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmssi10.pfb><
+/nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/te
+xmf/fonts/type1/public/amsfonts/cm/cmssi8.pfb></nix/store/xpyyls9lgphkaddin0knm
+lrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/
+cm/cmssi9.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-ful
+l-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></nix/store/xpyyls
+9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/p
+ublic/amsfonts/cm/cmsy6.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texliv
+e-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></nix
+/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/
+fonts/type1/public/amsfonts/cm/cmsy8.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqp
+b14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/symbo
+ls/msam10.pfb>
+Output written on pres.pdf (9 pages, 1307974 bytes).
 PDF statistics:
- 259 PDF objects out of 1000 (max. 8388607)
- 222 compressed objects within 3 object streams
- 15 named destinations out of 1000 (max. 500000)
- 58 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 328 PDF objects out of 1000 (max. 8388607)
+ 283 compressed objects within 3 object streams
+ 19 named destinations out of 1000 (max. 500000)
+ 63 words of extra memory for PDF output out of 10000 (max. 10000000)
 
