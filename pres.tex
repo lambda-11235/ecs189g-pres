@@ -42,7 +42,7 @@
     \pause
 
   \item We want to preserve as much structure between data points when
-    mapping to a lower dimension.
+    mapping to a lower dimension
 
   \item What is the ideal case when reducing to 2D from a higher dimension?
   \end{enumerate}
@@ -57,14 +57,14 @@
 
 \begin{frame}
   \frametitle{Stochastic Neighbor Embedding (SNE)}
-  \framesubtitle{Spring Metaphor}
+  \framesubtitle{High-Level Overview}
 
   \begin{enumerate}
-  \item Consider putting a spring between each point in
-    higher-dimensional space, and then squashing the points down into a
-    lower dimension.
+  \item Each pair of data points has a measurable neighbor relationship with every other point
 
-  \item Spring tension is given by neighbor locality.
+  \item This relationship is non-symmetric
+
+  \item Stochastic neighbor embedding tries to preserve this relationship
   \end{enumerate}
 
   \begin{figure}
@@ -96,6 +96,8 @@
     \small
     
     \begin{tabular}{ll}
+      $\sigma_i$ & Determined via binary search on perplexity\\
+      \hline
       Perplexity & Smooth approximation of number of neighbors\\
       & $Perp(P_i) = 2^{H(P_i)}$\\
       \hline
@@ -103,16 +105,24 @@
       & $H(P_i) = -\sum_j p_{j|i} \log_2{p_{j|i}}$\\
     \end{tabular}
   \end{center}
+
+  %\begin{description}
+  %    \item[Perplexity] Smooth approximation of number of neighbors\\
+  %      $Perp(P_i) = 2^{H(P_i)}$
+  %      
+  %    \item[Shannon Entropy] Information present in probability space\\
+  %      $H(P_i) = -\sum_j p_{j|i} \log_2{p_{j|i}}$
+  %\end{description}
   
   \begin{figure}
     \centering
-    \includegraphics[height=0.6\textheight]{images/perp/perp.png}
+    \includegraphics[width=\textwidth]{images/perp/perp.png}
   \end{figure}
 \end{frame}
 
 \begin{frame}
   \frametitle{Stochastic Neighbor Embedding (SNE)}
-  \framesubtitle{Gradient Descent Optimization}
+  \framesubtitle{Cost Function}
 
   \begin{enumerate}
   \item $q_{j|i}$ is analogous to $p_{j|i}$ for lower dimension points $y_i$ and $y_j$.
@@ -120,6 +130,16 @@
 
   \item Cost function is $C = \sum_i KL(P_i || Q_i) = \sum_i \sum_j p_{j|i} \log\frac{p_{j|i}}{q_{j|i}}$
 
+  \item Cost function uses Kullbeck-Leibler divergence to measure the
+    difference between the set of $q_{j|i}$ and $p_{j|i}$
+  \end{enumerate}
+\end{frame}
+
+\begin{frame}
+  \frametitle{Stochastic Neighbor Embedding (SNE)}
+  \framesubtitle{Gradient Descent Optimization}
+
+  \begin{enumerate}
   \item $\pd{C}{y_i} = 2 \sum_j \del{p_{j|i} - q_{j|i} + p_{i|j} - q_{i|j}} \del{y_i - y_j}$
 
   \item $Y^{(t)} = Y^{(t - 1)} + \nu \pd{C}{Y} + \alpha(t) \del{Y^{(t - 1)} - Y^{(t - 2)}}$
@@ -132,7 +152,17 @@
   \frametitle{Problems with SNE}
 
   \begin{itemize}
+  \item Cost function is not convex
+    \begin{itemize}
+    \item Possible to get stuck on local minima
+    \end{itemize}
+
   \item Computational inefficiency
+    \begin{itemize}
+    \item Must compute $p_{j|i}$ many times, especially when estimating $\sigma_i$
+
+    \item Simulated annealing is slow. Suffers compared to convex optimization
+    \end{itemize}
 
   \item Overcrowding
   \end{itemize}

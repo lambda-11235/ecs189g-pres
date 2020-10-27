@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/NixOS.org) (preloaded format=pdflatex 2020.10.4)  17 OCT 2020 19:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/NixOS.org) (preloaded format=pdflatex 2020.10.4)  25 OCT 2020 17:10
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -791,35 +791,34 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 40.
 (/nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/t
 exmf/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) 
-AED: lastpage setting LastPage
-[1
+) [1
 
 {/nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/t
-exmf-var/fonts/map/pdftex/updmap/pdftex.map}] [2] (./script.aux) ) 
+exmf-var/fonts/map/pdftex/updmap/pdftex.map}] 
+AED: lastpage setting LastPage
+[2] (./script.aux) ) 
 Here is how much of TeX's memory you used:
- 17359 strings out of 480994
- 378183 string characters out of 5888645
- 576739 words of memory out of 5000000
- 32558 multiletter control sequences out of 15000+600000
+ 17312 strings out of 480994
+ 377239 string characters out of 5888645
+ 574592 words of memory out of 5000000
+ 32511 multiletter control sequences out of 15000+600000
  542710 words of font info for 66 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 68i,9n,83p,416b,1079s stack positions out of 5000i,500n,10000p,200000b,80000s
-</nix/store/x
-pyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/ty
-pe1/public/amsfonts/cm/cmmi12.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-
-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmmi6.pfb
+ 68i,7n,83p,416b,918s stack positions out of 5000i,500n,10000p,200000b,80000s
+</nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combin
+ed-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmmi12.pfb></nix/store/
+xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/t
+ype1/public/amsfonts/cm/cmmi6.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-
+texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb
 ></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/
-texmf/fonts/type1/public/amsfonts/cm/cmmi8.pfb></nix/store/xpyyls9lgphkaddin0kn
+texmf/fonts/type1/public/amsfonts/cm/cmr12.pfb></nix/store/xpyyls9lgphkaddin0kn
 mlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts
-/cm/cmr12.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-ful
-l-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmr17.pfb></nix/store/xpyyls9
-lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/pu
-blic/amsfonts/cm/cmr8.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-
-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmsy10.pfb></nix/
-store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/f
-onts/type1/public/amsfonts/cm/cmsy8.pfb>
-Output written on script.pdf (2 pages, 79054 bytes).
+/cm/cmr17.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive-combined-ful
+l-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmr8.pfb></nix/store/xpyyls9l
+gphkaddin0knmlrjqpb14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/pub
+lic/amsfonts/cm/cmsy10.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqpb14pf4-texlive
+-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmsy8.pfb>
+Output written on script.pdf (2 pages, 78953 bytes).
 PDF statistics:
  70 PDF objects out of 1000 (max. 8388607)
  41 compressed objects within 1 object stream

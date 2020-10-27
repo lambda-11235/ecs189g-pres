@@ -1,10 +1,14 @@
 
 import numpy as np
 import numpy.random as npr
+import matplotlib
 import matplotlib.pyplot as plt
 
+matplotlib.use('TkAgg')
+
+
 plt.rc('font', size=32)
-fig, axs = plt.subplots(2, 2, figsize=(16,16))
+fig, axs = plt.subplots(1, 4, figsize=(40,8))
 axs = axs.flatten()
 
 npr.seed(1096)

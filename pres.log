@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/NixOS.org) (preloaded format=pdflatex 2020.10.4)  22 OCT 2020 23:24
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/NixOS.org) (preloaded format=pdflatex 2020.10.4)  26 OCT 2020 16:42
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1168,17 +1168,19 @@ Package pdftex.def Info: images/gauss/gauss.png  used on input line 89.
  [6
 
  <./images/gauss/gauss.png>]
-<images/perp/perp.png, id=186, 1046.9514pt x 1016.598pt>
+<images/perp/perp.png, id=186, 2337.2118pt x 571.4148pt>
 File: images/perp/perp.png Graphic file (type png)
 <use images/perp/perp.png>
-Package pdftex.def Info: images/perp/perp.png  used on input line 111.
-(pdftex.def)             Requested size: 166.30153pt x 161.48961pt.
+Package pdftex.def Info: images/perp/perp.png  used on input line 121.
+(pdftex.def)             Requested size: 307.28987pt x 75.12355pt.
  [7
 
  <./images/perp/perp.png>] [8
 
 ]
 [9
+
+] [10
 
 ]
 \tf@nav=\write6
@@ -1192,19 +1194,19 @@ Package pdftex.def Info: images/perp/perp.png  used on input line 111.
 
  
 AED: lastpage setting LastPage
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 171.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 171.
 (./pres.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 171.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 171.
 Package rerunfilecheck Info: File `pres.out' has not changed.
 (rerunfilecheck)             Checksum: D41D8CD98F00B204E9800998ECF8427E;0.
  ) 
 Here is how much of TeX's memory you used:
- 21304 strings out of 480994
- 449922 string characters out of 5888645
- 671190 words of memory out of 5000000
- 36295 multiletter control sequences out of 15000+600000
+ 21335 strings out of 480994
+ 450798 string characters out of 5888645
+ 669194 words of memory out of 5000000
+ 36324 multiletter control sequences out of 15000+600000
  546605 words of font info for 83 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  58i,14n,67p,791b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
@@ -1236,10 +1238,10 @@ e-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/cm/cmsy7.pfb></nix
 fonts/type1/public/amsfonts/cm/cmsy8.pfb></nix/store/xpyyls9lgphkaddin0knmlrjqp
 b14pf4-texlive-combined-full-2019/share/texmf/fonts/type1/public/amsfonts/symbo
 ls/msam10.pfb>
-Output written on pres.pdf (9 pages, 1307974 bytes).
+Output written on pres.pdf (10 pages, 1318687 bytes).
 PDF statistics:
- 328 PDF objects out of 1000 (max. 8388607)
- 283 compressed objects within 3 object streams
- 19 named destinations out of 1000 (max. 500000)
+ 354 PDF objects out of 1000 (max. 8388607)
+ 307 compressed objects within 4 object streams
+ 21 named destinations out of 1000 (max. 500000)
  63 words of extra memory for PDF output out of 10000 (max. 10000000)
 

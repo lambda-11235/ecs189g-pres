@@ -46,7 +46,8 @@
   \item The purpose is to see how data is structured.
 
   \item This is done through manifold learning.
-    \todo{what is a manifold, how do we learn?}
+    A manifold is a lower-dimensional Euclidean object embedded and
+    distorted into higher dimensional space.
     [ Show example of 2D manifold in 3D space being put on a 2D space ]
   \end{enumerate}
   
@@ -56,10 +57,10 @@
     between point on a 2D or 3D plain.
     
   \item If we imagine that each data pair of points in higher
-    dimensional space is connected by a spring of length $p_{j|i}$.
+    dimensional space is connected by a spring of strength $p_{j|i}$.
     SNE can be thought of as trying to squash points down into lower
     dimensional space.
-    The spring lengths will $q_{j|i}$ probably be different, but their
+    The spring lengths $q_{j|i}$ will probably be different, but their
     force, caused by gradient descent, will make them to approach
     $p_{j|i}$.
     Not a completely accurate analogy because $p_{j|i} \neq p_{i|j}$,
@@ -73,6 +74,12 @@
     Ignore how $\sigma_i$ is chosen for now.
     [ Use 2D Gaussian as an example ]
 
+  \item $\sigma_i$ is chosen via binary search on perplexity.
+    Can be interpreted as a smooth measure the number of neighbors.
+    [ $H(P_i)$ is the entropy in the neighborhood sample, i.e. the
+    number of bits needed to represent the uncertainty, so $2^{H(P_i)}$ is
+    like the number of neighbors. ]
+
   \item Then we come with create a set of lower dimensional points
     equal in number to the higher dimensional ones.
     These point get similarity values $q_{j|i}$.
@@ -80,12 +87,6 @@
     between every $p_{j|i}$ and $q_{j|i}$ for every $i$ and $j$, as
     measured by the Kullbeck-Leibler divergence.
     [ Note that since $P_i$ and $Q_i$ are probability distributions, KL is $\ge 0$ ]
-
-  \item $\sigma_i$ is chosen via binary search on perplexity.
-    Can be interpreted as a smooth measure the number of neighbors.
-    [ $H(P_i)$ is the entropy in the neighborhood sample, i.e. the
-    number of bits needed to represent the uncertainty, so $2^{H(P_i)}$ is
-    like the number of neighbors. ]
   \end{enumerate}
 
 \item \todo[inline]{Problems with SNE}
